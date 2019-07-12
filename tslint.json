@@ -1,0 +1,31 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["@oclif/tslint"],
+  "jsRules": {},
+  "rules": {
+    "semicolon": [true, "never"],
+    "prefer-const": true,
+    "variable-name": {
+      "options": [
+        "check-format",
+        "allow-pascal-case",
+        "allow-leading-underscore",
+        "ban-keywords"
+      ]
+    },
+    "trailing-comma": [true, { "multiline": "always", "singleline": "never" }],
+    "strict-type-predicates": true,
+    "align": [
+      true,
+      "arguments",
+      "elements",
+      "members",
+      "parameters",
+      "statements"
+    ],
+    "quotemark": [true, "single", "jsx-single", "avoid-escape"],
+    "no-console": false,
+    "interface-name": false
+  },
+  "rulesDirectory": []
+}

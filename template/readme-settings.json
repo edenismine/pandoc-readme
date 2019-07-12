@@ -1,0 +1,7 @@
+{
+  "project": "%PROJECT_NAME%",
+  "header": "header.tex",
+  "metadata": "format.yaml",
+  "bib": "bibliography.bib",
+  "output": "readme.pdf"
+}
