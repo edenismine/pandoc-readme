@@ -1,7 +1,7 @@
 {
   "name": "pandoc-readme",
   "description": "A thin wrapper that enables external configuration for the pandoc command.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Daniel Aragon (laragon@bluemessaging.com)",
   "bin": {
     "pandoc-readme": "./bin/run"
